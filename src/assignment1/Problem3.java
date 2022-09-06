@@ -6,7 +6,7 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 public class Problem3 {
     static public void problem3Solution (String input){
         //create a new tagger object using props file I have
-      MaxentTagger tagger =  new MaxentTagger("/Users/alexistorres/Documents/Code/422C/Assignment1/Project1/src/assignment1/english-bidirectional-distsim.tagger");
+      MaxentTagger tagger =  new MaxentTagger("assignment1/english-bidirectional-distsim.tagger");
       String tagged = tagger.tagString(input); // this function tags the string
       System.out.println(tagged);
     }
