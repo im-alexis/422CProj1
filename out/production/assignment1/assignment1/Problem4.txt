@@ -1,0 +1,7 @@
+1) What do you expect (and like) to learn in this class?
+2) If we have time at the end of the semester to go through additional topics related to software engineering,
+Java or object-oriented programming, what would you like us cover?
+
+1)More about how to make efficient programs. And overall becoming a better programmer
+
+2)Machine learning would be cool to learn more about.
