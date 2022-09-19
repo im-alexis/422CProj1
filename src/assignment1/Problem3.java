@@ -13,11 +13,11 @@ public class Problem3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String sentenceP3;
-        System.out.println("Running Problem 3 ....\n");
+
         System.out.print("Enter a sentence: ");
         sentenceP3 = scanner.nextLine();
         problem3Solution(sentenceP3);
-        System.out.println("\n-----Done Problem 3----");
+
 
 
     }

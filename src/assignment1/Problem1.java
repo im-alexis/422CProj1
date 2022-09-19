@@ -25,13 +25,13 @@ public class Problem1 {
         Scanner scanner = new Scanner(System.in);
         String digits; // three variable for user input
         int adj;
-        System.out.println("Running Problem 1 ....\n");
-        System.out.println("Enter a 1000 digits: ");
-        digits = scanner.nextLine();
         System.out.print("Enter how many adjacent: ");
         adj = scanner.nextInt();
+        System.out.println("Enter a 1000 digits: ");
+        digits = scanner.nextLine();
+
         Problem1.problem1Solution(digits, adj);
-        System.out.println("\n-----Done Problem 1----%n");
+
 
 
     }

@@ -16,7 +16,7 @@ public class Problem2 {
            else{ // everything else is a zero
                runningSum = runningSum + 0;
             }
-            if(input.charAt(i) == ' '){// if a there is a space then it is a new word
+            if(input.charAt(i) == ' ' || i == input.length()-1){// if a there is a space then it is a new word
                 if(runningSum >= 100){
                     System.out.println(input.substring(startIndex,i+1)); // since index i is a space then adding one would
                                                                         // give the length of the word
@@ -28,13 +28,13 @@ public class Problem2 {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String sentenceP2, senternceP3 ; // three variable for user input
+        String sentenceP2; // three variable for user input
 
-        System.out.println("Running Problem 2 ....\n");
+
         System.out.print("Enter a sentence: ");
         sentenceP2 = scanner.nextLine();
         Problem2.problem2Solution(sentenceP2);
-        System.out.println("\n-----Done Problem 2----");
+
 
     }
 }
